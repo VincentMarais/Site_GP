@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afficher Excel</title>
+</head>
+<body>
+    <table id="excelTable">
+        <!-- Les données Excel seront affichées ici -->
+    </table>
+
+    <script>
+        // Récupérer les données Excel du backend
+        fetch("/get-excel-data")
+        .then(response => response.json())
+        .then(data => {
+            // Construire le tableau
+            let tableHtml = '<thead><tr>';
+            
+            // En-têtes
+            for (let header in data[0]) {
+                tableHtml += `<th>${header}</th>`;
+            }
+            tableHtml += '</tr></thead><tbody>';
+            
+            // Lignes
+            for (let row of data) {
+                tableHtml += '<tr>';
+                for (let cell in row) {
+                    tableHtml += `<td>${row[cell]}</td>`;
+                }
+                tableHtml += '</tr>';
+            }
+            tableHtml += '</tbody>';
+
+            document.getElementById("excelTable").innerHTML = tableHtml;
+        });
+    </script>
+</body>
+</html>
