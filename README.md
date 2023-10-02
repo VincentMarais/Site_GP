@@ -3,13 +3,13 @@
 Ce projet permet d'afficher les données d'un fichier csv sur une page Web.
 
 ## 1. Préparation
-Assurez-vous d'avoir tous les fichiers nécessaires de l'application dans un même dossier : index.html, script.js et style.css. 
+- Assurez-vous d'avoir tous les fichiers nécessaires de l'application dans un même dossier : index.html, script.js et style.css. 
 
-Ensuite téléchargé le google sheet des stages aux formats .csv
+- Ensuite téléchargé le google sheet des stages aux formats .csv
 
 ## 2. Lancement de l'application
 
-Ouvrez le fichier index.html dans un navigateur web moderne (comme Chrome, Firefox, Safari ou Edge).
+- Ouvrez le fichier index.html dans un navigateur web (comme Chrome, Firefox, Safari ou Edge).
 
 ## 3. Chargement du fichier CSV
 
