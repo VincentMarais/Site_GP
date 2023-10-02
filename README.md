@@ -1,6 +1,6 @@
 # Étapes d'utilisation Site_WEB_GP
 
-Ce projet permet d'afficher les données d'un fichier Excel sur une page Web en utilisant Flask pour le backend et JavaScript pour le frontend.
+Ce projet permet d'afficher les données d'un fichier csv sur une page Web.
 
 ## 1. Préparation
 Assurez-vous d'avoir tous les fichiers nécessaires de l'application dans un même dossier : index.html, script.js et style.css.
