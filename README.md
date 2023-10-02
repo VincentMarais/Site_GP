@@ -13,10 +13,10 @@ Ce projet permet d'afficher les données d'un fichier csv sur une page Web.
 
 ## 3. Chargement du fichier CSV
 
-1. Sur la page web, vous verrez un bouton "Choisir un fichier". Cliquez sur ce bouton pour ouvrir la boîte de dialogue de sélection de fichiers.
+- Sur la page web, vous verrez un bouton "Choisir un fichier". Cliquez sur ce bouton pour ouvrir la boîte de dialogue de sélection de fichiers.
    
 
-2. Naviguez sur votre ordinateur pour trouver et sélectionner le fichier CSV des stages.
+- Naviguez sur votre ordinateur pour trouver et sélectionner le fichier CSV des stages.
 
 ## 4. Affichage des données
 - Après avoir sélectionné votre fichier CSV, cliquez sur le bouton "Charger les données".
