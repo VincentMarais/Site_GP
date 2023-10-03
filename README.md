@@ -5,7 +5,7 @@ Ce projet permet d'afficher les données d'un fichier csv sur une page Web.
 ## 1. Préparation
 - Assurez-vous d'avoir tous les fichiers nécessaires de l'application dans un même dossier : index.html, script.js et style.css. 
 
-- Ensuite téléchargé le google sheet des stages aux formats .csv.
+- Ensuite téléchargé le google sheet des stages aux formats .csv, dans le dossier 4A/5A disponible sur le Drive_GP.
 
 ## 2. Lancement de l'application
 
